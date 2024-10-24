@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+.footerr{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    /* margin: 0 auto; */
+}
+.app_banner{
+    width: 80%;
+    height: 20%;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.app_banner img{
+    height: 50px;
+}

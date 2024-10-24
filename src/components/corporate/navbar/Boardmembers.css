@@ -1,0 +1,166 @@
+.swiper {
+  width: 80%;
+  height: 100%;
+  /* background-color: antiquewhite; */
+}
+.swiper-button-prev {
+  color: white;
+}
+
+.swiper-button-next {
+  color: white;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    gap: 10px;
+}
+  
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+.members_name h3{
+  font-size: large;
+  text-align: left;
+}
+.members_name p{
+  font-size: medium;
+  text-align: left;
+  color: #97999B;
+}
+.members_info{
+  width: 100%;
+  height: 20%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+
+}
+.members_name{
+  width: 80%;
+  height: 100%;
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 7px;
+}
+.arrow_style{
+  color: white;
+  background-color: #525252; 
+  font-size: 30px;
+  font-weight: 100;
+  border-radius: 20px;
+  padding: 6px;
+  cursor: pointer;
+}
+.arrow_style:hover{
+  color: white;
+  background-color: #FE5005;
+}
+.info_arrow button{
+  background-color: white;
+  border: none;
+}
+.info_page{
+  width: 70%;
+  height: 55%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+.info_box{
+  width: 85%;
+  height: 75%;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* flex-direction: column; */
+  gap:30px;
+
+}
+.mem_pic{
+  width: 32%;
+  height: 100%;
+  /* background-color: #FE5005; */
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.mem_pic img{
+  height: 100%;
+}
+.mem_bio{
+  width: 70%;
+  height: 100%;
+  /* background-color: bisque; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.mem_designation{
+  width: 100%;
+  height: 23%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 7px;
+}
+.mem_designation h2{
+  font-size: 25px;
+}
+.mem_designation h5{
+  font-size: 20px;
+  font-weight: 100;
+}
+.bio_content{
+color: #97999B;
+padding: 1px;
+width: 100%;
+height: 70%;
+overflow-y: scroll;
+font-size: 18px;
+/* border: 1px solid #ccc; */
+}
+.se{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.info_bg{
+  width: 100%;
+  height: 100vh;
+  background-color:rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 25px;
+  /* opacity: 50%; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}

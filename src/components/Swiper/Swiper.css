@@ -1,0 +1,53 @@
+.swiper {
+    width: 85%;
+    height: 52vh;
+  }
+  
+  .swiper-slide {
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    /* background: #a84f4f; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: 20vh;
+    /* object-fit: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+  .pic{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cart{
+    font-size: 15px;
+  }
+  .cartcont{
+    font-size: 15px;
+  }
+  .cartcont h1{
+    font-size: 20px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+  }
+  .cartcont h6{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    text-align: start;
+
+  }

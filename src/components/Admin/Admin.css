@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap');
+
+.admin_main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    background-color: black;
+}
+.sidebar{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    border-top-right-radius: 20px;
+    background-color: #FE5005;
+}
+.mainpage{
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: black;
+    overflow-y: scroll;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+.logo_box{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_box img{
+    width: 80%;
+    height: 50%;
+}
+.adminnav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: black;
+    border-bottom: 5px #FE5005 solid;
+}
+.search{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 45%;
+    /* background-color: aquamarine; */
+}
+.search h2{
+    font-family: "REM", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #FE5005;
+}
+.searchbox input{
+    width: 90%;
+    height: 90%;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    float: left;
+    border-top: 3px #FE5005 solid;
+    border-left: 3px #FE5005 solid;
+    border-bottom: 3px #FE5005 solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: "REM", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.searchbox button{
+    width: 20px;
+    height: 31px;
+    /* color: black; */
+    background-color: #FE5005;
+    padding: 2px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.userdisplay{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+.userdisplay h4{
+    color: white;
+    font-family: "REM", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.userdisplay img{
+    height: 80%;
+    width: 15%;
+    border-radius: 30px;
+    border: 3px solid white;
+    cursor: pointer;
+}
+.add_products{
+    width: 100%;
+    height: 10%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_products button{
+    background-color: #FE5005;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "REM", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+.add_restaurant{
+    width: 100%;
+    height: 10%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_restaurant button{
+    background-color: #FE5005;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "REM", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+.restaurant_form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 7px;
+}
+.res_head{
+    width: 14%;
+    height: 10%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-bottom: 4px solid #FE5005;
+    padding-bottom: 6px;
+    color: white;
+    /* background-color: #FE5005; */
+}
+.res_head h2{
+    font-family: "REM", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration:double;
+  /* color: black; */
+}
+.res_input{
+    width: 40%;
+    height: 8%;
+    /* background-color: azure; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2%;
+}
+.res_input h4{
+    font-family: "REM", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    /* font-size: 20px; */
+    /* text-decoration:double; */
+}
+.res_input input{
+width: 50%;
+height: 50%;
+border: 3px solid #FE5005;
+outline: none;
+background-color: #181A1B;
+padding: 5px 10px;
+border-radius: 5px;
+color: white;
+}
+.res_input select{
+    width: 50%;
+    height: 58%;
+    border: 3px solid #FE5005;
+    outline: none;
+    background-color: #181A1B;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+.res_inputt{
+        width: 38%;
+        height: 8%;
+        /* background-color: azure; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2%;
+}
+.res_inputt h4{
+        font-family: "REM", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        color: white;
+        /* font-size: 20px; */
+        /* text-decoration:double; */
+    }
+.res_inputt select{
+        width: 50%;
+        height: 58%;
+        border: 3px solid #FE5005;
+        outline: none;
+        background-color: #181A1B;
+        padding: 5px 10px;
+        border-radius: 5px;
+        color: white;
+        }
+.res_input_radio{
+    width: 100%;
+    height: 8%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.res_input_radio_title{
+    width: 20%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.res_input_radio_title h4{
+    font-family: "REM", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    /* font-size: 20px; */
+    /* text-decoration:double; */
+}
+.res_input_radio_box{
+  width: 80%;
+  height: 100%;
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.res_input_radio_box label{
+    color: white;
+    font-family: "REM", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.multiselect{
+    width: 60%;
+    height: 58%;
+    border: 3px solid #FE5005;
+    outline: none;
+    background-color: #181A1B;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+.submit_button{
+    width: 100%;
+    height: 10%;
+    /* background-color: #181A1B; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.submit_button button{
+    width:15%;
+    height: 60%;
+    background-color: #FE5005;
+    border:none;
+    outline: none;
+    color: white;
+    font-family: "REM", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+}
+.submit_button button:hover{
+    scale: 1.1;
+    transition: 0.75s;
+}
+.products_form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 7px;
+}
+.prod_head{
+    width: 12%;
+    height: 10%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-bottom: 4px solid #FE5005;
+    padding-bottom: 6px;
+    color: white;
+    /* background-color: #FE5005; */
+}
+.prod_head h2{
+    font-family: "REM", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration:double;
+  /* color: black; */
+}
+.prod_input{
+    width: 40%;
+    height: 8%;
+    /* background-color: azure; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2%;
+}
+.prod_input h4{
+    font-family: "REM", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    /* font-size: 20px; */
+    /* text-decoration:double; */
+}
+.prod_input input{
+width: 50%;
+height: 55%;
+border: 3px solid #FE5005;
+outline: none;
+background-color: #181A1B;
+padding: 5px 10px;
+border-radius: 5px;
+color: white;
+}
+.prod_input_radio{
+    width: 100%;
+    height: 8%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.prod_input_radio_title{
+    width: 20%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.prod_input_radio_title h4{
+    font-family: "REM", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    /* font-size: 20px; */
+    /* text-decoration:double; */
+}
+.prod_input_radio_box{
+  width: 80%;
+  height: 100%;
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.prod_input_radio_box label{
+    color: white;
+    font-family: "REM", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.userdisplay button{
+   width: 60px;
+   height: 25px;
+   font-size: 14px;
+   color: black;
+    font-family: "REM", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #FE5005;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.userdisplay button:active{
+    color: white;
+}

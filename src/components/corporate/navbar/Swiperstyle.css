@@ -1,0 +1,63 @@
+.swiper {
+    width: 80%;
+    height:300px;
+    /* background-color: antiquewhite; */
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    width: 600px;
+    /* background-color: antiquewhite; */
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+  }
+.scooter_path{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+.journeyone{
+    width: 92%;
+    height: 200px;
+    background-image: url("../../../Assets//Images/journey-dot-1.png");
+    background-repeat: no-repeat;
+    background-size: 93%;
+    background-position: center;
+    animation: scroll 12s infinite;
+    /* background-color: beige; */
+}
+
+@keyframes scroll {
+    from{
+    background-image: url("../../../Assets//Images/journey-dot-2.png");
+    display: ;
+        
+    }
+    20%{
+    background-image: url("../../../Assets//Images/journey-dot-3.png");
+        
+    }
+    40%{
+    background-image: url("../../../Assets//Images/journey-dot-4.png");
+
+    }
+    60%{
+        background-image: url("../../../Assets//Images/journey-dot-5.png");
+
+    }
+    to{
+    background-image: url("../../../Assets//Images/journey-dot-1.png");
+
+    }
+}
